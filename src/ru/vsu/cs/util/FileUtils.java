@@ -1,4 +1,4 @@
-package ru.vsu.cs;
+package ru.vsu.cs.util;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import static ru.vsu.cs.HashAlgorithms.getMD5;
+import static ru.vsu.cs.util.HashAlgorithms.getMD5;
 
 public class FileUtils {
     public static void printDuplicateFiles(Map<String, List<String>> duplicateFilesMap) {

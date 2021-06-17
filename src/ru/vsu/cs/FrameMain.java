@@ -9,8 +9,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
-import static ru.vsu.cs.FileUtils.fillMapWithDuplicatedFiles;
-import static ru.vsu.cs.FileUtils.getDuplicateFiles;
+import static ru.vsu.cs.util.FileUtils.fillMapWithDuplicatedFiles;
+import static ru.vsu.cs.util.FileUtils.getDuplicateFiles;
 
 public class FrameMain extends JFrame {
     private JPanel panelMain;

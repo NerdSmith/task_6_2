@@ -1,4 +1,4 @@
-package ru.vsu.cs;
+package ru.vsu.cs.util;
 
 import javax.xml.bind.DatatypeConverter;
 import java.io.IOException;
